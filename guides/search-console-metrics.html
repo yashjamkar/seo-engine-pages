@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search Console numbers explained | Search Notes</title>
+  <meta name="description" content="What Google Search Console's four performance numbers mean, and the quirks behind them: reporting delays, provisional days, Pacific-time dates and hidden queries.">
+  <link rel="canonical" href="https://yashjamkar.github.io/seo-engine-pages/guides/search-console-metrics.html">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="../">Search Notes</a>
+    <nav class="site" aria-label="Guides">
+      <a href="page-titles.html">Page titles</a>
+      <a href="meta-descriptions.html">Meta descriptions</a>
+      <a href="search-console-metrics.html" aria-current="page">Search Console numbers</a>
+      <a href="measuring-a-change.html">Measuring a change</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Clicks, impressions, CTR and position</h1>
+    <p class="lede">Search Console's performance report counts how a site appears in Google
+      Search. The four numbers are simple; the rules behind them are where people get caught out.</p>
+
+    <h2>The four numbers</h2>
+    <table>
+      <thead><tr><th scope="col">Number</th><th scope="col">What it counts</th></tr></thead>
+      <tbody>
+        <tr><td>Impressions</td><td>How often a link to the site appeared in results someone saw.</td></tr>
+        <tr><td>Clicks</td><td>How often someone clicked through to the site.</td></tr>
+        <tr><td>Click-through rate</td><td>Clicks divided by impressions.</td></tr>
+        <tr><td>Position</td><td>The average position of the site's highest result, where 1 is the top.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Quirks worth knowing</h2>
+    <ul>
+      <li><strong>Delay.</strong> Data arrives after a delay of a couple of days. The most recent
+        days are preliminary and can still go up once they are final.</li>
+      <li><strong>Pacific time.</strong> Days are counted in US Pacific time, not your local time
+        zone, so a "day" may not match your own analytics.</li>
+      <li><strong>Hidden queries.</strong> Rare searches are left out of the query list to
+        protect searchers' privacy, but still count in page and site totals. Query rows therefore
+        add up to less than the total.</li>
+      <li><strong>Row limits.</strong> Very large sites see only the top rows for a day; totals
+        are still complete.</li>
+      <li><strong>History.</strong> About sixteen months of data are kept.</li>
+    </ul>
+
+    <h2>Reading the numbers together</h2>
+    <p>Clicks and impressions can move for different reasons. When impressions rise but the
+      click-through rate falls and clicks stay flat, the page is often being shown in more places
+      that people scroll past, such as summaries at the top of the results. That is not
+      necessarily a problem with the page itself.</p>
+  </main>
+  <footer class="site"><a href="../">Search Notes</a> · a static site on GitHub Pages</footer>
+</div>
+</body>
+</html>
